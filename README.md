@@ -1,7 +1,7 @@
 # 👋 우민경 | Backend Developer (in progress)
 
-비전공에서 개발자로 성장 중입니다.  
-기초를 중요하게 생각하고,  
+비전공에서 개발자로 성장 중입니다.<br>
+기초를 중요하게 생각하고,<br>
 **왜 이렇게 동작하는지** 이해하려고 노력합니다 ⚡
 
 
@@ -28,9 +28,9 @@
   - API 흐름 설계의 중요성
   - 예외 처리의 필요성
   
-//로컬환경(H2) 기반 프로젝트
-//실행 흐름과 설계를 PDF로 정리했습니다
-👉 [System.out.println("](file:///C:/Users/minki/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/minkii/POPBLE/POPBLE_%EC%B5%9C%EC%A2%85PPT_%EC%88%98%EC%A0%95.pdf[");]
+//로컬환경(H2) 기반 프로젝트 <br>
+//실행 흐름과 설계를 PDF로 정리했습니다 <br>
+[프로젝트 설계 요약 PDF](popble_project_overview.pdf)
 
 
 ## 🌱 성장 중입니다
@@ -38,6 +38,5 @@
 **매일 조금씩 채워가는 중**입니다 🔋  
 꾸준히 기록하고, 더 나은 코드로 개선해 나가겠습니다.
 
-
-📎 Portfolio: https://www.notion.so/2db7987fb5c480fbb614f4b4116bc5a1
+📎 Portfolio: https://www.notion.so/2db7987fb5c480fbb614f4b4116bc5a1 <br>
 📎 GitHub: https://github.com/minkii-w
