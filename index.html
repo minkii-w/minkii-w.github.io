@@ -5,21 +5,81 @@
   <title>minkii | Backend Developer</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .battery {
+      font-size: 34px;
+      margin: 20px 0;
+      display: flex;
+      gap: 10px;
+    }
+
+    .battery i {
+      opacity: 0.25;
+      animation: charge 2s linear forwards;
+    }
+
+    .battery i:nth-child(1) { animation-delay: 0s; }
+    .battery i:nth-child(2) { animation-delay: 0.5s; }
+    .battery i:nth-child(3) { animation-delay: 1s; }
+    .battery i:nth-child(4) { animation-delay: 1.5s; }
+
+    @keyframes charge {
+      0%   { opacity: 0.25; }
+      60%  { opacity: 1; }
+      100% { opacity: 0.25; }
+    }
+
+    .battery.complete i {
+      animation: none;
+      opacity: 0.3;
+    }
+
+    .battery.complete i:last-child {
+      opacity: 1;
+      color: #22c55e; /* 초록 */
+    }
+
+    .tagline {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
+
 <body>
   <h1>minkii</h1>
-  <p>비전공 백엔드 개발자</p>
 
-  <h2>Contact</h2>
-  <ul>
-    <li>
-      <i class="fa-solid fa-envelope"></i>
-      wmiink@naver.com
-    </li>
-    <li>
-      <i class="fa-brands fa-github"></i>
-      <a href="https://github.com/minkii-w">github.com/minkii-w</a>
-    </li>
-  </ul>
+  <div class="battery" id="battery">
+    <i class="fa-solid fa-battery-quarter"></i>
+    <i class="fa-solid fa-battery-half"></i>
+    <i class="fa-solid fa-battery-three-quarters"></i>
+    <i class="fa-solid fa-battery-full"></i>
+  </div>
+
+  <div class="tagline" id="tagline">
+    비전공에서 개발자로 충전 중 ⚡
+  </div>
+
+  <script>
+    
+    setTimeout(() => {
+      document.getElementById('battery').classList.add('complete');
+      document.getElementById('tagline').textContent =
+        '비전공에서 프로 개발자로 성장 완료 ⚡';
+    }, 2200);
+  </script>
 </body>
 </html>
