@@ -48,13 +48,37 @@
 
     .battery.complete i:last-child {
       opacity: 1;
-      color: #22c55e; /* 초록 */
+      color: #22c55e;
     }
 
     .tagline {
       margin-top: 6px;
       font-size: 14px;
       color: #555;
+    }
+
+    .links {
+      margin-top: 18px;
+      display: flex;
+      gap: 20px;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.6s ease;
+    }
+
+    .links.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+    }
+
+    .links i {
+      margin-right: 6px;
     }
   </style>
 </head>
@@ -73,12 +97,22 @@
     비전공에서 개발자로 충전 중 ⚡
   </div>
 
+  <div class="links" id="links">
+    <a href="https://github.com/minkii-w" target="_blank">
+      <i class="fa-brands fa-github"></i> GitHub
+    </a>
+    <a href="https://www.notion.so/2db7987fb5c480fbb614f4b4116bc5a1" target="_blank">
+      <i class="fa-solid fa-book"></i> Portfolio
+    </a>
+  </div>
+
   <script>
-    
     setTimeout(() => {
       document.getElementById('battery').classList.add('complete');
       document.getElementById('tagline').textContent =
-        '비전공에서 프로 개발자로 성장 완료 ⚡';
+        '비전공에서 프로 개발자로 성장 ⚡';
+
+      document.getElementById('links').classList.add('show');
     }, 2200);
   </script>
 </body>
