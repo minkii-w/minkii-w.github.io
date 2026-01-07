@@ -1,8 +1,7 @@
 ### 우민경 | Backend Developer (in progress)
-
-<small>비전공에서 개발자로 성장 중입니다.<br>
+비전공에서 개발자로 성장 중입니다.<br>
 기초를 중요하게 생각하고, **왜 이렇게 동작하는지** 이해하려고 노력합니다
-</small>
+
 ---
 
 ### 지금의 나
@@ -39,4 +38,4 @@
 꾸준히 기록하고, 더 나은 코드로 개선해 나가겠습니다.
 
 📎 Portfolio: https://www.notion.so/2db7987fb5c480fbb614f4b4116bc5a1 <br>
-📎 GitHub: https://github.com/minkii-w
+📎 GitHub: https://minkii-w.github.io
