@@ -23,7 +23,7 @@
 - 주요 기능
   - 예약 생성 / 조회 / 취소
   - 중복 예약 방지 로직
-  - 결제 API(TOSS payent) 기능 구현
+  - 결제 API(TOSS payments) 기능 구현
   - 결제 실패시 예약 불가 처리
 - 배운 점
   - API 흐름 설계의 중요성
@@ -32,7 +32,7 @@
 > 로컬환경(H2) 기반 프로젝트 <br>
 > 실행 흐름과 설계를 PDF로 정리했습니다
 
-👉[프로젝트 설계 요약 PDF](POPBLE_최종PPT_수정.pdf)
+👉[프로젝트 설계 요약 PDF](Portfolio_WooMinkyung.pdf)
 ---
 
 #### 성장 중입니다
