@@ -29,10 +29,9 @@
   - API 흐름 설계의 중요성
   - 예외 처리의 필요성
 
-> 로컬환경(H2) 기반 프로젝트 <br>
 > 실행 흐름과 설계를 PDF로 정리했습니다
-
-👉[프로젝트 설계 요약 PDF](Portfolio_WooMinkyung.pdf)
+> 
+👉[프로젝트 설계 요약 PDF](Portfolio_WOOMinkyung.pdf)
 ---
 
 #### 성장 중입니다
